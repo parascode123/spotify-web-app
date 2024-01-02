@@ -1,0 +1,126 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@700&display=swap');
+
+body{
+    background-color:antiquewhite
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height:65px;
+   color:white;
+
+}
+nav ul li{
+    margin:0 9px;
+    display:flex;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    width:45px;
+    margin :0 7px;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+ .container{
+    background-color: black;
+    color:WHITE;
+    height:72vh;
+    width:70%;
+    margin:20px auto;
+    border-radius:15px;
+    padding: 20px;
+    display:flex;
+    background-image: url('bg.jpg');
+ }
+  .bottom{
+    position: sticky;
+    bottom: 0;
+   
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  
+    height:130px
+  }
+
+  #myProgressBar{
+    width:80vw;
+    margin-bottom: 0;
+    cursor:pointer;
+  }
+  .songcontainer{
+    margin-top:46px;
+    width: 70vw;
+    max-width:400px;
+  }
+ 
+  .songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 16px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+  
+}
+.songname{
+  margin-right:5px;
+  width:106px;
+}
+.timestamp{
+    margin:0 25px;
+}
+.images{
+    width:42px;
+    margin:0 24px;
+    border-radius: 35px;
+    background-size: cover;
+
+}
+.songinfo {
+  position:absolute;
+  left:130px;
+}
+.songinfo img{
+transition: opacity 0.7s ease-in;
+  width:45px;
+
+}
+.icons{
+  margin-top:50px;
+}
+  
+
+
+.songlistcontainer{
+  width:60%;
+}
+
+.songlistplay{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+/* @media only screen and (max-device-width: 563px) {
+  .songcontainer{
+    width:250px;
+  }
+} */
