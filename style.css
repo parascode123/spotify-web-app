@@ -36,7 +36,7 @@ nav ul li{
  .container{
     background-color: black;
     color:WHITE;
-    height:72vh;
+   min-height:72vh;
     width:70%;
     margin:20px auto;
     border-radius:15px;
